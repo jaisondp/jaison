@@ -1,0 +1,90 @@
+:root {
+  --background: #2e3640;
+  --foreground: #d8dee9;
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
+  padding: 0;
+  color: var(--foreground);
+  font-family: "Open Sans", sans-serif;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.back {
+  font-size: 2rem;
+  margin-left: -3rem;
+  text-decoration: none;
+  line-height: 5rem;
+}
+
+.about {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.4rem;
+}
+
+.ipa {
+  font-family: "Voces", cursive;
+}
+
+.feather {
+  color: var(--foreground);
+  float: left;
+  margin: 1rem;
+}
+
+.contenido {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.box > h1 {
+  font-size: 8.5rem;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.iconos {
+  margin-top: -6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.iconos > a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 4rem;
+}
+
+code {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  word-break: break-all;
+}
+a {
+  color: var(--foreground);
+  display: block;
+  letter-spacing: 2px;
+  transition: 0.9s;
+}
+
+.crypto > li {
+  margin-top: 1em;
+}
+
+.links > a:hover {
+  text-decoration: underline;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 200, "opsz" 40;
+}
+
+.box {
+  max-width: 500px;
+}
