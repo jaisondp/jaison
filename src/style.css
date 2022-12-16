@@ -1,5 +1,5 @@
 :root {
-  --background: #2e3640;
+  --background: #2e3540;
   --foreground: #d8dee9;
 }
 
@@ -87,4 +87,17 @@ a {
 
 .box {
   max-width: 500px;
+}
+
+@keyframes anim {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+.box, .iconos {
+  animation: anim 2s;
 }
